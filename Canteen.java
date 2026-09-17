@@ -13,13 +13,13 @@ public class Canteen {
             char orderAgain = 'Y';
             // MAIN MENU LOOP >:p
             while (orderAgain == 'Y' || orderAgain == 'y') {
-                System.out.println("===== MENU =====");
+                System.out.println("===== CANTEEN MENU =====");
                 System.out.println("1. Pepperoni Pizza         - Php 33.00");
                 System.out.println("2. TenderJuicy Hotdog      - Php 35.00");
                 System.out.println("3. Shawarma                - Php 65.00");
                 System.out.println("4. Pancit Canton           - Php 30.00");
                 System.out.println("5. Fruit Juice             - Php 20.00");
-                System.out.println("=================");
+                System.out.println("========================");
 
                 System.out.print("Enter item number: ");
                 int itemNumber = scanner.nextInt();
